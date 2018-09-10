@@ -16,13 +16,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ---
 -->
 
-## [v0.1.0-alpha](https://github.com/theThaiAstro/Suriyakras/releases/tag/v0.1.0-alpha) - 2018-09-10
+## [v0.1.0-beta.1](https://github.com/theThaiAstro/Suriyakras/releases/tag/v0.1.0-alpha) - 2018-09-10
 
 ### Added
 * Created the template for the website skeleton
 
 ### Changed 
 * Changed `-` in CHANGELOG to `*`
+* Changed version numbering scheme by adding a number after `alpha`/`beta` to properly and semantically reflect the version numbering scheme.
 
 ---
 
