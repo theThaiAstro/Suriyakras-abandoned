@@ -27,7 +27,7 @@ are directions for opening issues. -->
 We will be maintained under the Semantic Versioning guidelines as much as possible. Releases will be numbered
 with the following format:
 
-`<major>.<minor>.<patch>`
+`v<major>.<minor>.<patch>`
 
 For more information on SemVer, please visit http://semver.org.
 
