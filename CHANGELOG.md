@@ -9,11 +9,6 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### Added
 * 300+ more icons
-* Brands pack
-* New JavaScript based SVG Framework
-* New SVG Sprites based framework
-* Source SVGs
-* Documentation with a convenient build-in web server
 
 ### Changed
 * New directory structure
@@ -24,9 +19,19 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ## [v0.1.0-alpha](https://github.com/theThaiAstro/Suriyakras/releases/tag/v0.1.0-alpha) - 2018-09-10
 
 ### Added
-- [README](./README.md)
-- [LICENCE](./LICENCE)
-- [CHANGELOG](./CHANGELOG.md)
-- Foundation Installation
+* Created the template for the website skeleton
+
+### Changed 
+* Changed `-` in CHANGELOG to `*`
+
+---
+
+## [v0.1.0-alpha](https://github.com/theThaiAstro/Suriyakras/releases/tag/v0.1.0-alpha) - 2018-09-10
+
+### Added
+* [README](./README.md)
+* [LICENCE](./LICENCE)
+* [CHANGELOG](./CHANGELOG.md)
+* Foundation Installation
 
 ---
