@@ -23,6 +23,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### Added
 
+* Created the `index.scss` and `index.css`
 
 
 ## [v0.1.0-beta.1](https://github.com/theThaiAstro/Suriyakras/releases/tag/v0.1.0-alpha) - 2018-09-10
