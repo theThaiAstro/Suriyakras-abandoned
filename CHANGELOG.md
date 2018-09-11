@@ -20,6 +20,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### Added
 * Created the template for the website skeleton
+* Added the PHPed footer.html
+* Added fonts
+* Added essential images
+* Added SCSS files
 
 ### Changed 
 * Changed `-` in CHANGELOG to `*`
