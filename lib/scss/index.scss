@@ -1,0 +1,29 @@
+.flex-container {
+    display: flex;
+    flex: {
+        direction: row;
+        wrap: nowrap;
+    }
+    
+}
+
+.loop-article-thumbnail { 
+    $thumbnail-size: 12rem;
+    display: block;
+    flex: 0 0 $thumbnail-size;
+    width: $thumbnail-size;
+    height: $thumbnail-size;
+    background: {
+        color: red;
+        image: url('https://placekitten.com/1920/1080');
+        position: center center;
+        repeat: no-repeat;  
+        size: cover;      
+    }
+}
+
+.loop-article-detail {
+    h1, p {
+        margin: 0;
+    }
+}
