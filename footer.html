@@ -1,0 +1,126 @@
+<!doctype html>
+<html dir="ltr" lang="th-TH" class="no-js">
+
+    <head>
+
+        <!-- META -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+        <!-- TITLE -->
+        <title>{{{DOCUMENT_TITLE}}}</title>
+        
+        <!-- CSS/FOUNDATION -->
+        <link rel="stylesheet" href="lib/css/vendor/foundation.css">
+        
+        <!-- CSS/INTERNAL -->
+        <link rel="stylesheet" href="lib/css/footer.css">
+        <link rel="stylesheet" href="" />
+        
+        <!-- CSS/EXTERNAL -->
+        <link rel="stylesheet" href="" />
+
+        <style>
+            /*
+            .grid-x {
+                border: solid 1px red;
+            }
+            .cell {
+                border: solid 1px blue;
+            }
+            */
+        </style>
+
+    </head>
+
+    <body>
+
+        <footer id="footer" class="grid-x align-center">
+
+            <!-- MAIN FOOTER -->
+            <div class="cell medium-8 large-6">
+                <div id="footer-logo"></div>
+                <div id="footer-tas-name">
+                    <div id="footer-tas-name-th">สมาคมดาราศาสตร์ไทย</div>
+                    <div id="footer-tas-name-en">The Thai Astronomical Society</div>
+                </div>
+        
+                <div id="footer-socials">
+                    <i class="fab fa-lg fa-facebook-f"></i>
+                    <i class="fab fa-lg fa-twitter"></i>
+                    <i class="fab fa-lg fa-youtube"></i>
+                    <i class="fab fa-lg fa-instagram"></i>
+                </div>
+                
+                <div id="footer-sitemap">
+                    
+                    
+                    <!-- MAIN LINKS -->
+        
+                    <!-- wp_nav_menu(); -->
+                    <?php wp_nav_menu( array('theme_location' => 'secondary', 'container' => 'div', 'container_id' => 'footer-sitemap-main-links') ); ?>
+                    <!-- /wp_nav_menu(); -->
+                    
+                    <!-- PLAIN HTML -->
+                    <!-- 
+                    <div id="footer-sitemap-main-links">
+                        <ul>
+                            <li><a href="<php echo home_url(); ?>">หน้าแรก</a></li>
+                            <li><a href="#">ข่าว</a></li>
+                            <li><a href="#">ปรากฏการณ์ท้องฟ้า</a></li>
+                            <li><a href="#">กิจกรรม</a></li>
+                            <li><a href="#">ห้องสมุด</a></li>
+                            <li><a href="#">สารพันคำถาม</a></li>
+                            <li><a href="#">เกี่ยวกับ</a></li>
+                            <li><a href="#">ติดต่อ</a></li>
+                        </ul>
+                    </div>
+                    -->
+                    <!-- /MAIN LINKS -->
+        
+                    <!-- OTHER LINKS -->
+        
+                    <!-- wp_nav_menu(); -->
+                    <?php wp_nav_menu( array('theme_location' => 'tertiary', 'container' => 'div', 'container_id' => 'footer-sitemap-other-links') ); ?>
+                    <!-- /wp_nav_menu(); -->
+        
+                    <!-- PLAIN HTML -->
+                    <!--
+                    <div id="footer-sitemap-other-links">
+                        <ul>
+                            <li><a href="#">นโยบายความเป็นส่วนตัว</a></li>
+                            <li><a href="#">ข้อกำหนดการใช้งาน</a></li>
+                            <li><a href="#">ข้อปฏิเสธความรับผิดชอบ</a></li>
+                            <li><a href="#">ลิขสิทธิ์</a></li>
+                            <li><a href="#">ช่วยเหลือ</a></li>
+                            <li><a href="#">สำหรับสื่อ</a></li>
+                        </ul>
+                    </div>
+                    -->
+                    <!-- /OTHER LINKS -->
+                    <div id="footer-copyright">
+                        © 2561 สมาคมดาราศาสตร์ไทย
+                        <div id="footer-copyright-detail">
+                            เนื้อหาทั้งหมดเป็นลิขสิทธิ์ของสมาคมดาราศาสตร์ไทย ยกเว้นมีการระบุไว้เป็นอย่างอื่น โปรดดูหน้า<a href="licensing">ลิขสิทธิ์</a>สำหรับการนำไปใช้งาน
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /MAIN FOOTER -->
+        
+        </footer>
+
+
+        
+
+        <!-- SCRIPTS/FOUNDATION -->
+        <script src="lib/js/vendor/jquery.js"></script>
+        <script src="lib/js/vendor/what-input.js"></script>
+        <script src="lib/js/vendor/foundation.js"></script>
+        
+        <!-- SCRIPT/INTERNAL -->
+        <script src="lib/js/app.js"></script>
+
+    </body>
+
+</html>

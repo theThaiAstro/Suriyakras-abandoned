@@ -1,0 +1,132 @@
+@import "master";
+
+#footer {
+
+    background: {
+        color: $tas-black;
+    }
+
+    font: {
+        family: $font-noto;
+    }
+
+    // margin-top: 1rem;
+    padding: 2rem;
+
+    /* -- */
+    &-logo {
+        background: {
+            image: url($tas-logo-path);
+            size: contain;
+            repeat: no-repeat;
+        }
+
+        width: 100%;
+        height: 0;
+
+        padding: {
+            top: (259/200*80)+px;
+        }
+
+        /* (img-height / img-width * container-width) */
+        /* (853 / 1280 * 100) */
+    }
+
+    /* -- */
+    &-tas-name {
+        color: $tas-white;
+        margin-top: 0.8rem;
+
+        /* -- */
+        &-th {
+            font: {
+                weight: $font-semi-bold;
+                size: 1.6rem;
+            }
+        }
+
+        /* -- */
+        &-en {
+            color: $tas-almost-white-extra;
+        }
+    }
+
+    /* -- */
+    &-socials {
+        color: $tas-white;
+        margin-top: 1.2rem;
+
+        /* -- */
+        i {
+            margin-right: 1rem;
+        }
+    }
+
+    /* -- */
+    &-sitemap {
+        color: $tas-white;
+        margin-top: 1.2rem;
+
+        /* -- */
+        &-main-links {
+            font-weight: $font-semi-bold;
+        }
+
+        /* -- */
+        &-other-links {
+            font-weight: $font-normal;
+            color: $tas-almost-white;
+        }
+
+        /* -- */
+        a {
+            color: $tas-white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: $tas-almost-white;
+        }
+
+        /* -- */
+        ul {
+            padding: 0;
+
+            li {
+                display: inline-block;
+
+                /* -- */
+                &:not(:last-child)::after {
+                    content: " / ";
+                    font-weight: bold;
+                    color: $tas-bright-blue;
+                    color: $tas-red;
+                }
+            }
+        }
+    }
+
+    &-copyright {
+        font-weight: $font-semi-bold;
+        word-wrap: none;
+
+        /* -- */
+        &-detail {
+            color: hsla($tas-hsl-h, $tas-hsl-s, 98%, 0.6);
+
+            font: {
+                size: smaller;
+                weight: normal;
+            }
+
+            margin-top: 0.4rem;
+
+            a {
+                color: hsla($tas-hsl-h, $tas-hsl-s, 98%, 0.6);
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+/* END of FOOTER */

@@ -1,0 +1,68 @@
+/* COLOUR definition */
+
+/* PANTONE Reflex Blue XGC : */
+
+/* rgb(34, 22, 132 ) */
+
+/* #221684 */
+
+/* HSL definition */
+
+$tas-hsl-h: 247;
+$tas-hsl-s: 71%;
+$tas-hsl-l: 30%;
+/* --- */
+
+$tas-white: hsl($tas-hsl-h, $tas-hsl-s, 98%);
+$tas-almost-white-extra: hsl($tas-hsl-h, $tas-hsl-s, 94%);
+$tas-almost-white: hsl($tas-hsl-h, $tas-hsl-s, 90%); // old 92%
+$tas-blue: hsl($tas-hsl-h, $tas-hsl-s, $tas-hsl-l);
+$tas-bright-blue: hsl($tas-hsl-h, $tas-hsl-s, 64%); // 60% is also good
+$tas-almost-black: hsl($tas-hsl-h, $tas-hsl-s, 24%); // 60% is also good
+$tas-black: hsl($tas-hsl-h, $tas-hsl-s, 8%);
+$tas-super-black: hsl($tas-hsl-h, $tas-hsl-s, 4%);
+$tas-grey: hsl($tas-hsl-h, 8%, $tas-hsl-l);
+
+
+/* ACCENT COLOUR definition */
+$tas-red: hsl(356, 92%, 48%);
+/* END of ACCENT COLOUR definition */
+
+/* END of COLOUR definition */
+
+/* -------------------------------------- */
+
+/* SHADOW definition */
+
+$box-shadow: 0 2px 4px 0 hsla($tas-hsl-h, $tas-hsl-s, $tas-hsl-l, 0.2);
+/* END of SHADOW definition */
+
+/* -------------------------------------- */
+
+/* TYPEFACE definition */
+
+$font-noto: 'Noto Sans Thai UI',
+'Noto Sans',
+sans-serif;
+
+$font-prajad: 'Prajad', sans-serif;
+/* FONT SIZE definition */
+
+$font-thin: 100;
+$font-extra-light: 200;
+$font-light: 300;
+$font-normal: 400;
+$font-medium: 500;
+$font-semi-bold: 600;
+$font-bold: 700;
+$font-extra-bold: 800;
+$font-black: 900;
+/* END of SIZE definition */
+
+/*  END of TYPEFACE definition */
+
+/* URIs */
+
+$tas-logo-path: '../../assets/img/tas-logo-200.png';
+
+/* END of URIs */
