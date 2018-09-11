@@ -19,14 +19,19 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ---
 -->
 
-## [v0.1.0-beta.2](https://github.com/theThaiAstro/Suriyakras/releases/tag/v0.1.0-alpha) - 2018-09-10
+## [v0.1.0-beta.2](https://github.com/theThaiAstro/Suriyakras/releases/tag/v0.1.0-alpha) - 2018-09-[DATE]
 
 ### Added
 
 * Created the `index.scss` and `index.css`
 
+### Changed
 
-## [v0.1.0-beta.1](https://github.com/theThaiAstro/Suriyakras/releases/tag/v0.1.0-alpha) - 2018-09-10
+* Modified the `index.html` to be the template for `index.php` instead of using the old auto-generated file from Foundation.
+
+---
+
+## [v0.1.0-beta.1](https://github.com/theThaiAstro/Suriyakras/releases/tag/v0.1.0-alpha) - 2018-09-12
 
 ### Added
 
