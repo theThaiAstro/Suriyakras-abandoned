@@ -1,21 +1,21 @@
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  border: blue; }
-
-.loop-article-thumbnail {
-  display: block;
-  flex: 0 0 12rem;
-  width: 12rem;
-  height: 12rem;
-  background-color: red;
-  background-image: url("https://placekitten.com/1920/1080");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.loop-article-detail h1, .loop-article-detail p {
-  margin: 0; }
+.loop-result {
+  padding: 0 1rem; }
+  .loop-result-thumbnail-container {
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8rem;
+    width: 12rem;
+    overflow-y: hidden; }
+    .loop-result-thumbnail-container img {
+      width: 100%; }
+  .loop-result-tags {
+    margin: 0 1rem; }
+  .loop-result-excerpt-title {
+    margin: 0;
+    font-size: 1.6rem; }
+  .loop-result-excerpt-content {
+    font-size: 1rem; }
 
 /*# sourceMappingURL=index.css.map */

@@ -39,23 +39,39 @@
   </div>
 
   <div class="grid-x align-center">
-    <div class="cell medium-10 large-6">
+    <div class="cell medium-10 large-8">
 
-      <article class="grid-x align-center">
-        <div class="cell auto">
-          <img src="https://placekitten.com/500/500" class="loop-article-thumbnail" />
-        </div>
-        <div class="cell small-9">
-          {{{THIS IS THE TITLE OF THE ARTICLE}}}
-        </div>
-      </article>
 
-      <div class="flex-container">
-        <div class="loop-article-thumbnail"></div>
-        <div class="loop-article-detail">
-          <h1>THIS IS THE TITLE IT COULD BE VERY LONG</h1>
-          <p>SOME CONTENT COULD BE VERY VERY VERY LONG. LET'S SEE IF THE FLEX BOX CAN HANDLE THIS</p>
+      <div class="grid-x align-center loop-result">
+
+        <!-- METADATA OF THE POST -->
+        <div class="cell small-12 medium-2 loop-result-metadata-container">
+          <div class="grid-x loop-result-metadata">
+            <!-- CONTENT -->
+            <div class="cell small-12 medium-12 loop-result-label">[LABEL]</div>
+            <div class="cell auto medium-12 loop-result-date">📅 Date</div>
+            <div class="cell auto medium-12 loop-result-author">✒ Author</div>
+            <!-- /CONTENT -->
+          </div>
         </div>
+        <!-- /METADATA OF THE POST -->
+
+        <!-- IMAGE OF THE POST -->
+        <div class="cell hide-for-small-only medium-shrink loop-result-thumbnail">
+          <div class="loop-result-thumbnail-container">
+            <img src="https://placekitten.com/1090/1000" />
+          </div>
+          <div class="loop-result-tags"> 🏷 TAGS </div>
+        </div>
+        <!-- /IMAGE OF THE POST -->
+
+        <!-- CONTENT OF THE POST -->
+        <div class="cell small-12 medium-auto loop-result-excerpt">
+          <h1 class="loop-result-excerpt-title">THIS IS THE TITLE. IT COULD BE VERY LONG</h1>
+          <p class="loop-result-excerpt-content">SOME CONTENT COULD BE VERY VERY VERY LONG. LET'S SEE IF THE FLEX BOX CAN HANDLE THIS</p>
+        </div>
+        <!-- /CONTENT OF THE POST -->
+
       </div>
 
     </div>
