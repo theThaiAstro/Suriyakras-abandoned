@@ -1,0 +1,47 @@
+@import "master";
+
+/* BUTTON */
+.button {
+    // display: block; 
+    padding: 0.4rem 1.2rem;
+
+    background: {
+        color: $tas-blue;
+    }
+
+    font: {
+        family: $font-noto;
+    }
+
+    text: {
+        align: center;
+        decoration: none;
+    }
+}
+
+.button.white {
+    background: {
+        color: $tas-white;
+    }
+
+    border: {
+        bottom: solid 0.2rem $tas-grey;
+    }
+
+    /* -- */
+    &:hover {
+        background: $tas-almost-white;
+    }
+
+    &:active {
+        border: {
+            bottom: none;
+        }
+
+        margin: {
+            top: 0.2rem;
+        }
+    }
+}
+
+/* END of BUTTON */

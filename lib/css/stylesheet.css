@@ -1,0 +1,40 @@
+/* COLOUR definition */
+/* PANTONE Reflex Blue XGC : */
+/* rgb(34, 22, 132 ) */
+/* #221684 */
+/* HSL definition */
+/* --- */
+/* ACCENT COLOUR definition */
+/* END of ACCENT COLOUR definition */
+/* END of COLOUR definition */
+/* -------------------------------------- */
+/* SHADOW definition */
+/* END of SHADOW definition */
+/* -------------------------------------- */
+/* TYPEFACE definition */
+/* FONT SIZE definition */
+/* END of SIZE definition */
+/*  END of TYPEFACE definition */
+/* URIs */
+/* END of URIs */
+/* BUTTON */
+.button {
+  padding: 0.4rem 1.2rem;
+  background-color: #231683;
+  font-family: "Noto Sans Thai UI", "Noto Sans", sans-serif;
+  text-align: center;
+  text-decoration: none; }
+
+.button.white {
+  background-color: #f7f6fe;
+  border-bottom: solid 0.2rem #484653;
+  /* -- */ }
+  .button.white:hover {
+    background: #d8d3f8; }
+  .button.white:active {
+    border-bottom: none;
+    margin-top: 0.2rem; }
+
+/* END of BUTTON */
+
+/*# sourceMappingURL=stylesheet.css.map */

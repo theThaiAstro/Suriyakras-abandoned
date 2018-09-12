@@ -1,1 +1,45 @@
 @import "master";
+
+$featured-story-height: 90vh;
+
+/* --- */
+#featured-story {
+    width: 100%;
+    height: $featured-story-height;
+    background: {
+        color: red;
+        //image: url('../img/barfoo.jpg');
+        origin: border-box;
+        position: center center;
+        repeat: no-repeat;
+        size: cover;
+    }
+
+    /* -- */
+    &-wrapper {
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to bottom, hsla($tas-hsl-h, $tas-hsl-s, 8, 1) 0%, hsla($tas-hsl-h, $tas-hsl-s, $tas-hsl-l, 0) 64%);
+        background: #00000088;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        //z-index: 99;
+        /* -- */
+    }
+
+    &-title {
+        display: block;
+        padding: 0;
+        margin: 0 0 1.6rem 0;
+        color: $tas-white;
+        text-align: center;
+        font: {
+            family: $font-noto;
+            size: 1.6rem;
+            weight: $font-semi-bold;
+        }
+    }
+}
