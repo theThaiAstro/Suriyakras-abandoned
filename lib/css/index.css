@@ -1,7 +1,8 @@
 .flex-container {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap; }
+  flex-wrap: nowrap;
+  border: blue; }
 
 .loop-article-thumbnail {
   display: block;
