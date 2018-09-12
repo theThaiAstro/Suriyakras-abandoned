@@ -24,6 +24,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Added
 
 * Created the `index.scss` and `index.css`
+* Added the typefaces and typography configurations
 
 ### Changed
 
