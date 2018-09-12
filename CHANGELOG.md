@@ -32,7 +32,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ---
 
-## [v0.1.0-beta.1](#) - 2018-09-12
+## v0.1.0-beta.1 - 2018-09-12
 
 ### Added
 
