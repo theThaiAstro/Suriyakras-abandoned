@@ -1,0 +1,71 @@
+@import "master";
+
+/*
+* {
+    font-family: $font-heading;
+}
+*/
+
+.font-larger {
+    font-size: larger;
+}
+
+/* FONT COLOURS */
+
+.font-colour-black {
+    color: $tas-black;
+}
+
+.font-colour-blue {
+    color: $tas-blue;
+}
+
+.font-colour-red {
+    color: $tas-red;
+}
+
+.font-colour-white {
+    color: $tas-white;
+}
+
+/* END of FONT COLOURS */
+
+/* FONT WEIGHTS */
+
+.font-thin {
+    font-weight: $font-thin;
+}
+
+.font-extra-light {
+    font-weight: $font-extra-light;
+}
+
+.font-light {
+    font-weight: $font-light;
+}
+
+.font-normal {
+    font-weight: $font-normal;
+}
+
+.font-medium {
+    font-weight: $font-medium;
+}
+
+.font-semi-bold {
+    font-weight: $font-semi-bold;
+}
+
+.font-bold {
+    font-weight: $font-bold;
+}
+
+.font-extra-bold {
+    font-weight: $font-extra-bold;
+}
+
+.font-black {
+    font-weight: $font-black;
+}
+
+/* END of FONT WEIGHTS */

@@ -1,0 +1,72 @@
+/* COLOUR definition */
+/* PANTONE Reflex Blue XGC : */
+/* rgb(34, 22, 132 ) */
+/* #221684 */
+/* HSL definition */
+/* --- */
+/* ACCENT COLOUR definition */
+/* END of ACCENT COLOUR definition */
+/* END of COLOUR definition */
+/* -------------------------------------- */
+/* SHADOW definition */
+/* END of SHADOW definition */
+/* -------------------------------------- */
+/* TYPEFACE definition */
+/* FONT SIZE definition */
+/* END of SIZE definition */
+/*  END of TYPEFACE definition */
+/* URIs */
+/* END of URIs */
+/*
+* {
+    font-family: $font-heading;
+}
+*/
+.font-larger {
+  font-size: larger; }
+
+/* FONT COLOURS */
+.font-colour-black {
+  color: #090623; }
+
+.font-colour-blue {
+  color: #231683; }
+
+.font-colour-red {
+  color: #eb0a19; }
+
+.font-colour-white {
+  color: #f7f6fe; }
+
+/* END of FONT COLOURS */
+/* FONT WEIGHTS */
+.font-thin {
+  font-weight: 100; }
+
+.font-extra-light {
+  font-weight: 200; }
+
+.font-light {
+  font-weight: 300; }
+
+.font-normal {
+  font-weight: 400; }
+
+.font-medium {
+  font-weight: 500; }
+
+.font-semi-bold {
+  font-weight: 600; }
+
+.font-bold {
+  font-weight: 700; }
+
+.font-extra-bold {
+  font-weight: 800; }
+
+.font-black {
+  font-weight: 900; }
+
+/* END of FONT WEIGHTS */
+
+/*# sourceMappingURL=typography.css.map */
