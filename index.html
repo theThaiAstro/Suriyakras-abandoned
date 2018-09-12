@@ -34,25 +34,29 @@
 
 <body>
 
-  <div class="grid-x align-center">
-    <div class="cell medium-11 large-8">
+  <div class="grid-x">
+    <div class="cell small-11 medium-11 small-offset-1 large-8 large-offset-2">
       <h1>{{{PAGE.TITLE}}}</h1>
     </div>
   </div>
 
   <div class="grid-x align-center">
-    <div class="cell medium-11 large-8">
+    <div class="cell medium-11 large-10">
 
 
       <div class="grid-x align-center loop-result">
 
         <!-- METADATA OF THE POST -->
-        <div class="cell small-12 medium-2 loop-result-metadata-container">
+        <div class="cell small-12 medium-2 large-2 loop-result-metadata-container">
           <div class="grid-x loop-result-metadata">
             <!-- CONTENT -->
-            <div class="cell small-12 medium-12 loop-result-label">[LABEL]</div>
-            <div class="cell auto medium-12 loop-result-date">📅 Date</div>
-            <div class="cell auto medium-12 loop-result-author">✒ Author</div>
+            <div class="cell small-12 medium-12 shrink loop-result-label">
+              <span class="label primary">LABEL</span>
+            </div>
+            <div class="cell auto medium-12 shrink loop-result-date">
+                <time datetime="DATETIME_MAC" title="12 กันยายน 2561" class="font-bold">12 กันยายน 2561</time>
+            </div>
+            <div class="cell auto medium-12 shrink loop-result-author">โดย <strong>วิมุต วสะหลาย</strong></div>
             <!-- /CONTENT -->
           </div>
         </div>
@@ -63,14 +67,20 @@
           <div class="loop-result-thumbnail-container">
             <img src="https://placekitten.com/1090/1000" />
           </div>
-          <div class="loop-result-tags"> 🏷 TAGS </div>
+          <div class="loop-result-tags"> 
+            <ul>
+              <li>tag 1</li>
+              <li>tag 2</li>
+              <li>tag 3</li>
+            </ul>
+          </div>
         </div>
         <!-- /IMAGE OF THE POST -->
 
         <!-- CONTENT OF THE POST -->
         <div class="cell small-12 medium-auto loop-result-excerpt">
-          <h1 class="loop-result-excerpt-title">THIS IS THE TITLE. IT COULD BE VERY LONG</h1>
-          <p class="loop-result-excerpt-content">SOME CONTENT COULD BE VERY VERY VERY LONG. LET'S SEE IF THE FLEX BOX CAN HANDLE THIS</p>
+          <h1 class="loop-result-excerpt-title">THIS IS THE TITLE. IT COULD BE VERY LONG และอาจมีภาษาไทยด้วย</h1>
+          <p class="loop-result-excerpt-content">SOME CONTENT COULD BE VERY VERY VERY LONG. LET'S SEE IF THE FLEX BOX CAN HANDLE THIS ซัมไทมส์อิทออลโซแฮส ภาษาไทย</p>
         </div>
         <!-- /CONTENT OF THE POST -->
 

@@ -1,3 +1,5 @@
+@import "master";
+
 /* Noto Sans Thai UI */
 
 @font-face {
@@ -77,27 +79,27 @@
 @font-face {
     font-family: 'Prajad';
     src: url('../../assets/fonts/Prajad/csprajad.woff') format('woff');
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Prajad';
     src: url('../../assets/fonts/Prajad/csprajad-italic.woff') format('woff');
-    font-weight: normal;
+    font-weight: 400;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Prajad';
     src: url('../../assets/fonts/Prajad/csprajad-bold.woff') format('woff');
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Prajad';
     src: url('../../assets/fonts/Prajad/csprajad-bolditalic.woff') format('woff');
-    font-weight: bold;
+    font-weight: 700;
     font-style: italic;
 }

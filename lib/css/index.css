@@ -19,6 +19,10 @@
 /* END of URIs */
 .loop-result {
   padding: 0 1rem; }
+  .loop-result-label, .loop-result-date, .loop-result-author {
+    text-align: right;
+    font-color: #484653;
+    font-family: "Prajad", sans-serif; }
   .loop-result-thumbnail-container {
     margin: 0 1rem;
     display: flex;
@@ -30,11 +34,22 @@
     .loop-result-thumbnail-container img {
       width: 100%; }
   .loop-result-tags {
-    margin: 0 1rem; }
+    margin: 0 1rem;
+    align-content: left; }
+    .loop-result-tags ul {
+      padding: 0; }
+    .loop-result-tags li {
+      display: inline-block;
+      font-family: "Prajad", sans-serif;
+      font-size: small; }
+      .loop-result-tags li:not(:last-child)::after {
+        content: ', '; }
   .loop-result-excerpt-title {
     margin: 0;
+    font-family: "Noto Sans Thai UI", "Noto Sans", sans-serif;
     font-size: 1.6rem; }
   .loop-result-excerpt-content {
-    font-size: 1rem; }
+    font-family: "Prajad", sans-serif;
+    font-size: 1.2rem; }
 
 /*# sourceMappingURL=index.css.map */

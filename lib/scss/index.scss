@@ -4,6 +4,14 @@
 
     padding: 0 1rem;
 
+    &-label, &-date, &-author {
+        text-align: right;
+        font: {
+            color: $tas-grey;
+            family: $font-prajad;
+        }
+    }
+
     &-thumbnail-container {
 
         margin: 0 1rem;
@@ -22,17 +30,41 @@
 
     &-tags {
         margin: 0 1rem;
+
+        align-content: left;
+
+        ul {
+            padding: 0;
+        }
+
+        li {
+            display: inline-block;
+            font: {
+                family: $font-prajad;
+                size: small;
+            }
+
+            &:not(:last-child)::after {
+                content: ', ';
+            }
+        }
     }
 
     &-excerpt {
 
         &-title {
             margin: 0;
-            font-size: 1.6rem;
+            font: {
+                family: $font-noto;
+                size: 1.6rem;
+            }
         }
 
         &-content {
-            font-size: 1rem;
+            font: {
+                family: $font-prajad;
+                size: 1.2rem;
+            }
         }
     }
 

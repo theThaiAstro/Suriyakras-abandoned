@@ -1,3 +1,22 @@
+/* COLOUR definition */
+/* PANTONE Reflex Blue XGC : */
+/* rgb(34, 22, 132 ) */
+/* #221684 */
+/* HSL definition */
+/* --- */
+/* ACCENT COLOUR definition */
+/* END of ACCENT COLOUR definition */
+/* END of COLOUR definition */
+/* -------------------------------------- */
+/* SHADOW definition */
+/* END of SHADOW definition */
+/* -------------------------------------- */
+/* TYPEFACE definition */
+/* FONT SIZE definition */
+/* END of SIZE definition */
+/*  END of TYPEFACE definition */
+/* URIs */
+/* END of URIs */
 /* Noto Sans Thai UI */
 @font-face {
   font-family: 'Noto Sans Thai UI';
@@ -57,22 +76,22 @@
 @font-face {
   font-family: 'Prajad';
   src: url("../../assets/fonts/Prajad/csprajad.woff") format("woff");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal; }
 @font-face {
   font-family: 'Prajad';
   src: url("../../assets/fonts/Prajad/csprajad-italic.woff") format("woff");
-  font-weight: normal;
+  font-weight: 400;
   font-style: italic; }
 @font-face {
   font-family: 'Prajad';
   src: url("../../assets/fonts/Prajad/csprajad-bold.woff") format("woff");
-  font-weight: bold;
+  font-weight: 700;
   font-style: normal; }
 @font-face {
   font-family: 'Prajad';
   src: url("../../assets/fonts/Prajad/csprajad-bolditalic.woff") format("woff");
-  font-weight: bold;
+  font-weight: 700;
   font-style: italic; }
 
 /*# sourceMappingURL=typefaces.css.map */
