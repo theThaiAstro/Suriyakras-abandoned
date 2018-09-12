@@ -1,6 +1,6 @@
 @import "master";
 
-.loop-result {
+.result-loop {
 
     padding: 0 1rem;
 
@@ -34,6 +34,7 @@
         align-content: left;
 
         ul {
+            margin: 0.4rem 0;
             padding: 0;
         }
 
@@ -65,7 +66,13 @@
                 family: $font-prajad;
                 size: 1.2rem;
             }
+            margin: 0.2rem 0 0 0;
         }
+    }
+
+    &-hr {
+        margin: 0.8rem 1rem 1.6rem 1rem;
+        border: 1px solid $tas-blue;
     }
 
 }

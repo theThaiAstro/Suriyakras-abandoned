@@ -24,12 +24,6 @@
   <!-- CSS/EXTERNAL -->
   <link rel="stylesheet" href="" />
 
-  <style>
-    * {
-      border: 0.5px solid red;
-    }
-  </style>
-
 </head>
 
 <body>
@@ -41,50 +35,53 @@
   </div>
 
   <div class="grid-x align-center">
-    <div class="cell medium-11 large-10">
+    <div class="cell medium-11 large-8">
 
+      <!-- ONE ARTICLE -->
+        <div class="grid-x align-center result-loop">
 
-      <div class="grid-x align-center loop-result">
-
-        <!-- METADATA OF THE POST -->
-        <div class="cell small-12 medium-2 large-2 loop-result-metadata-container">
-          <div class="grid-x loop-result-metadata">
-            <!-- CONTENT -->
-            <div class="cell small-12 medium-12 shrink loop-result-label">
-              <span class="label primary">LABEL</span>
+          <!-- METADATA OF THE POST -->
+          <div class="cell small-12 medium-2 large-2 result-loop-metadata-container">
+            <div class="grid-x result-loop-metadata">
+              <!-- CONTENT -->
+              <div class="cell auto medium-12 shrink result-loop-label">
+                <span class="label primary">LABEL</span>
+              </div>
+              <div class="cell auto medium-12 shrink result-loop-date">
+                  <time datetime="DATETIME_MAC" title="12 กันยายน 2561" class="font-bold">12 กันยายน 2561</time>
+              </div>
+              <div class="cell auto medium-12 shrink result-loop-author">โดย <strong>วิมุต วสะหลาย</strong></div>
+              <!-- /CONTENT -->
             </div>
-            <div class="cell auto medium-12 shrink loop-result-date">
-                <time datetime="DATETIME_MAC" title="12 กันยายน 2561" class="font-bold">12 กันยายน 2561</time>
+          </div>
+          <!-- /METADATA OF THE POST -->
+
+          <!-- IMAGE OF THE POST -->
+          <div class="cell hide-for-small-only medium-shrink result-loop-thumbnail">
+            <div class="result-loop-thumbnail-container">
+              <img src="https://placekitten.com/1090/1000" />
             </div>
-            <div class="cell auto medium-12 shrink loop-result-author">โดย <strong>วิมุต วสะหลาย</strong></div>
-            <!-- /CONTENT -->
+            <div class="result-loop-tags"> 
+              <ul>
+                <li>tag 1</li>
+                <li>tag 2</li>
+                <li>tag 3</li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <!-- /METADATA OF THE POST -->
+          <!-- /IMAGE OF THE POST -->
 
-        <!-- IMAGE OF THE POST -->
-        <div class="cell hide-for-small-only medium-shrink loop-result-thumbnail">
-          <div class="loop-result-thumbnail-container">
-            <img src="https://placekitten.com/1090/1000" />
+          <!-- CONTENT OF THE POST -->
+          <div class="cell small-12 medium-auto result-loop-excerpt">
+            <h1 class="result-loop-excerpt-title">THIS IS THE TITLE. IT COULD BE VERY LONG และอาจมีภาษาไทยด้วย</h1>
+            <p class="result-loop-excerpt-content">SOME CONTENT COULD BE VERY VERY VERY LONG. LET'S SEE IF THE FLEX BOX CAN HANDLE THIS ซัมไทมส์อิทออลโซแฮส ภาษาไทย</p>
           </div>
-          <div class="loop-result-tags"> 
-            <ul>
-              <li>tag 1</li>
-              <li>tag 2</li>
-              <li>tag 3</li>
-            </ul>
-          </div>
-        </div>
-        <!-- /IMAGE OF THE POST -->
+          <!-- /CONTENT OF THE POST -->
 
-        <!-- CONTENT OF THE POST -->
-        <div class="cell small-12 medium-auto loop-result-excerpt">
-          <h1 class="loop-result-excerpt-title">THIS IS THE TITLE. IT COULD BE VERY LONG และอาจมีภาษาไทยด้วย</h1>
-          <p class="loop-result-excerpt-content">SOME CONTENT COULD BE VERY VERY VERY LONG. LET'S SEE IF THE FLEX BOX CAN HANDLE THIS ซัมไทมส์อิทออลโซแฮส ภาษาไทย</p>
         </div>
-        <!-- /CONTENT OF THE POST -->
 
-      </div>
+        <hr class="result-loop-hr" />
+      <!-- /ONE ARTICLE -->
 
     </div>
   </div>

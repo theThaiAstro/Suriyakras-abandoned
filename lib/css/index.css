@@ -17,13 +17,13 @@
 /*  END of TYPEFACE definition */
 /* URIs */
 /* END of URIs */
-.loop-result {
+.result-loop {
   padding: 0 1rem; }
-  .loop-result-label, .loop-result-date, .loop-result-author {
+  .result-loop-label, .result-loop-date, .result-loop-author {
     text-align: right;
     font-color: #484653;
     font-family: "Prajad", sans-serif; }
-  .loop-result-thumbnail-container {
+  .result-loop-thumbnail-container {
     margin: 0 1rem;
     display: flex;
     align-items: center;
@@ -31,25 +31,30 @@
     height: 8rem;
     width: 12rem;
     overflow-y: hidden; }
-    .loop-result-thumbnail-container img {
+    .result-loop-thumbnail-container img {
       width: 100%; }
-  .loop-result-tags {
+  .result-loop-tags {
     margin: 0 1rem;
     align-content: left; }
-    .loop-result-tags ul {
+    .result-loop-tags ul {
+      margin: 0.4rem 0;
       padding: 0; }
-    .loop-result-tags li {
+    .result-loop-tags li {
       display: inline-block;
       font-family: "Prajad", sans-serif;
       font-size: small; }
-      .loop-result-tags li:not(:last-child)::after {
+      .result-loop-tags li:not(:last-child)::after {
         content: ', '; }
-  .loop-result-excerpt-title {
+  .result-loop-excerpt-title {
     margin: 0;
     font-family: "Noto Sans Thai UI", "Noto Sans", sans-serif;
     font-size: 1.6rem; }
-  .loop-result-excerpt-content {
+  .result-loop-excerpt-content {
     font-family: "Prajad", sans-serif;
-    font-size: 1.2rem; }
+    font-size: 1.2rem;
+    margin: 0.2rem 0 0 0; }
+  .result-loop-hr {
+    margin: 0.8rem 1rem 1.6rem 1rem;
+    border: 1px solid #231683; }
 
 /*# sourceMappingURL=index.css.map */
