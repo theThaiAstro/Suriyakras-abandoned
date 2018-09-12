@@ -24,6 +24,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Added
 
 * Created the `index.scss` and `index.css`
+* Created the `front-page` boilerplate
 * Added the typefaces and typography configurations
 
 ### Changed
