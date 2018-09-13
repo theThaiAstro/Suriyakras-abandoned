@@ -17,6 +17,7 @@
 /*  END of TYPEFACE definition */
 /* URIs */
 /* END of URIs */
+/* Featured Story */
 /* --- */
 #featured-story {
   width: 100%;
@@ -47,5 +48,34 @@
     font-family: "Noto Sans Thai UI", "Noto Sans", sans-serif;
     font-size: 1.6rem;
     font-weight: 600; }
+
+/* Titles */
+.mainpage-title {
+  font-family: "Noto Sans Thai UI", "Noto Sans", sans-serif;
+  font-size: 2rem;
+  margin-top: 2.4rem;
+  margin-left: 1.6rem; }
+
+/* Recent articles */
+#recent-articles {
+  padding: 0 0.8rem; }
+
+.article-w-thumbnail {
+  box-shadow: 0 2px 4px 0 rgba(35, 22, 131, 0.2);
+  font-family: "Noto Sans Thai UI", "Noto Sans", sans-serif;
+  width: 100%;
+  /* -- */ }
+  .article-w-thumbnail-container {
+    padding: 0.8rem 0.8rem; }
+  .article-w-thumbnail-image {
+    object-fit: cover;
+    width: 100%;
+    height: 10rem; }
+  .article-w-thumbnail-title {
+    margin-top: -0.5rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    z-index: 99;
+    /* -- */ }
 
 /*# sourceMappingURL=front-page.css.map */

@@ -1,11 +1,14 @@
 @import "master";
 
+/* Featured Story */
+
 $featured-story-height: 90vh;
 
 /* --- */
 #featured-story {
     width: 100%;
     height: $featured-story-height;
+
     background: {
         color: red;
         //image: url('../img/barfoo.jpg');
@@ -36,10 +39,61 @@ $featured-story-height: 90vh;
         margin: 0 0 1.6rem 0;
         color: $tas-white;
         text-align: center;
+
         font: {
             family: $font-noto;
             size: 1.6rem;
             weight: $font-semi-bold;
         }
     }
+}
+
+/* Titles */
+
+.mainpage-title {
+    font: {
+        family: $font-noto;
+        size: 2rem;
+    }
+    margin: {
+        top: 2.4rem;
+        left: 1.6rem;
+    }
+
+}
+
+/* Recent articles */
+
+#recent-articles {
+    padding: 0 0.8rem;
+}
+
+.article-w-thumbnail {
+    box-shadow: $box-shadow;
+
+    font: {
+        family: $font-noto;
+    }
+
+    width: 100%;
+
+    &-container {
+        padding: 0.8rem 0.8rem;
+    }
+
+    /* -- */
+    &-image {
+        object-fit: cover;
+        width: 100%;
+        height: 10rem;
+    }
+
+    &-title {
+        margin-top: -0.5rem;
+        padding: 1rem;
+        font-size: 1.2rem;
+        z-index: 99;
+        /* -- */
+    }
+
 }
