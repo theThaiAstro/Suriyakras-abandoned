@@ -19,7 +19,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ---
 -->
 
-## [v0.1.0-beta.2](https://github.com/theThaiAstro/Suriyakras/releases/tag/v0.1.0-alpha) - 2018-09-[DATE]
+## v0.1.0-beta.2 - 2018-09-13
 
 ### Added
 
