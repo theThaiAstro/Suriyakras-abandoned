@@ -4,20 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
-<!--
-## [5.0.0-alpha1]
-(https://github.com/FortAwesome/Font-Awesome-Pro/releases/tag/5.0.0-alpha1)  - 2017-06-23
+## v0.1.0-beta.3 - 2018-09-[DATE]
 
 ### Added
 
-* 300+ more icons
+* Created [Code of Conduct](./CODE_OF_CONDUCT.md)
+* Created [Contribution Guidelines](./CONTRIBUTING.md)
 
 ### Changed
 
-* New directory structure
+* N/A
 
 ---
--->
 
 ## v0.1.0-beta.2 - 2018-09-13
 
