@@ -49,20 +49,26 @@
     font-size: 1.6rem;
     font-weight: 600; }
 
+/* Generic article styles */
 /* Titles */
-.mainpage-title {
+.frontpage-title {
   font-family: "Noto Sans Thai UI", "Noto Sans", sans-serif;
   font-size: 2rem;
-  margin-top: 2.4rem;
+  margin-top: 1.6rem;
+  margin-bottom: 0.2rem;
   margin-left: 1.6rem; }
+  .frontpage-title::before {
+    /* This adds a fancy decorative verticle line in front of the recent article names */
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 2rem;
+    background: #eb0a19;
+    position: relative;
+    top: 0.16em;
+    margin-right: 0.4rem; }
 
-/* Recent articles */
-#recent-articles, #future-events {
-  padding: 0 0.8rem; }
-  #recent-articles-title, #future-events-title {
-    margin-top: 1.6rem;
-    margin-bottom: 0.2rem; }
-
+/* Cards */
 .article-w-thumbnail {
   box-shadow: 0 2px 4px 0 rgba(35, 22, 131, 0.2);
   box-shadow: #ffffff;
@@ -84,5 +90,18 @@
     box-shadow: none;
     color: #1c1269;
     /* -- */ }
+
+/* Specific styles */
+#recent-articles, #future-events, #sky-highlights {
+  padding: 0 0.8rem; }
+
+#recent-articles-title::before {
+  background: #eb0a19; }
+
+#future-events-title::before {
+  background: #231683; }
+
+#sky-highlights-title::before {
+  background: #231683; }
 
 /*# sourceMappingURL=front-page.css.map */

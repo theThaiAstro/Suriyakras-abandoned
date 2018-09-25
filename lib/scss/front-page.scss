@@ -48,55 +48,57 @@ $featured-story-height: 90vh;
     }
 }
 
-/* Titles */
+/* Generic article styles */
 
-.mainpage-title {
+/* Titles */
+.frontpage-title {
     font: {
         family: $font-noto;
         size: 2rem;
     }
     margin: {
-        top: 2.4rem;
+        top: 1.6rem;
+        bottom: 0.2rem;
         left: 1.6rem;
     }
-
-}
-
-/* Recent articles */
-
-#recent-articles, #future-events {
-    padding: 0 0.8rem;
-    
-    &-title {
-       margin-top: 1.6rem;
-       margin-bottom: 0.2rem;
+    &::before {
+        /* This adds a fancy decorative verticle line in front of the recent article names */
+        content: "";
+        display: inline-block;
+        width: 4px;
+        height: 2rem;
+        background: $tas-red;
+        position: relative;
+        top: 0.16em;
+        margin-right: 0.4rem;
     }
 }
 
+/* Cards */
 .article-w-thumbnail {
     box-shadow: $box-shadow;
     box-shadow: #ffffff;
-
+    
     font: {
         family: $font-noto;
     }
-
+    
     width: 100%;
-
+    
     &-container {
         padding: 0.8rem 0.8rem;
         a {
             text-decoration: none;
         }
     }
-
+    
     /* -- */
     &-image {
         object-fit: cover;
         width: 100%;
         height: 10rem;
     }
-
+    
     &-title {
         padding: 1rem;
         font-size: 1.2rem;
@@ -104,7 +106,31 @@ $featured-story-height: 90vh;
         box-shadow: none;
         color: $tas-almost-black;
         /* -- */
-
+        
     }
+    
+}
 
+/* Specific styles */
+
+#recent-articles, #future-events, #sky-highlights {
+    padding: 0 0.8rem;
+}
+
+#recent-articles {
+    &-title::before {
+        background: $tas-red;
+    }
+}
+
+#future-events {
+    &-title::before {
+        background: $tas-blue;
+    }
+}
+
+#sky-highlights {
+    &-title::before {
+        background: $tas-blue;
+    }
 }
