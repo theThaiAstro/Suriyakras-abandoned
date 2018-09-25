@@ -1,4 +1,5 @@
 @import "master";
+@import "mixins";
 
 /* NAVIGATION BAR */
 #navigation-bar {
@@ -100,13 +101,13 @@
 
     //}
     /* -- */
-    /*
+    
     @include md {
         &-logo {
             left: 14rem;
         }
     }
-    */
+
 
     /* -- */
     &-doner {
