@@ -4,16 +4,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## v0.1.0-beta.3 - 2018-09-[DATE]
-
-### Added
-
-* Created [Code of Conduct](./CODE_OF_CONDUCT.md)
-* Created [Contribution Guidelines](./CONTRIBUTING.md)
+## v0.1.0-beta.3 - 2018-09-25
 
 ### Changed
 
-* N/A
+* Finalised the `front-page`
 
 ---
 
