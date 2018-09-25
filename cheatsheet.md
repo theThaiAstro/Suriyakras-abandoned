@@ -1,23 +1,35 @@
-# Git
+# Cheatsheet
 
-## Branch
+## Git
 
-### Local
+### Branch
 
-#### New Branch
+#### Local
+
+##### New Branch
 
 `git branch <branch name>`
 
-#### Delete Branch
+##### Delete Branch
 
 `git branch -d <branch name>`
 
-### Remote
+#### Remote
 
-#### New Branch
+##### New Branch
 
 `git push <remote_name> <branch_name>`
 
-#### Delete Branch
+##### Delete Branch
 
 `git push <remote_name> --delete <branch_name>`
+
+---
+
+## SASS
+
+### Complie
+
+#### Compressed
+
+`sass --watch lib/scss:lib/css --style compressed`
