@@ -57,25 +57,32 @@
   margin-left: 1.6rem; }
 
 /* Recent articles */
-#recent-articles {
+#recent-articles, #future-events {
   padding: 0 0.8rem; }
+  #recent-articles-title, #future-events-title {
+    margin-top: 1.6rem;
+    margin-bottom: 0.2rem; }
 
 .article-w-thumbnail {
   box-shadow: 0 2px 4px 0 rgba(35, 22, 131, 0.2);
+  box-shadow: #ffffff;
   font-family: "Noto Sans Thai UI", "Noto Sans", sans-serif;
   width: 100%;
   /* -- */ }
   .article-w-thumbnail-container {
     padding: 0.8rem 0.8rem; }
+    .article-w-thumbnail-container a {
+      text-decoration: none; }
   .article-w-thumbnail-image {
     object-fit: cover;
     width: 100%;
     height: 10rem; }
   .article-w-thumbnail-title {
-    margin-top: -0.5rem;
     padding: 1rem;
     font-size: 1.2rem;
     z-index: 99;
+    box-shadow: none;
+    color: #1c1269;
     /* -- */ }
 
 /*# sourceMappingURL=front-page.css.map */

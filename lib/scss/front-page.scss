@@ -64,12 +64,18 @@ $featured-story-height: 90vh;
 
 /* Recent articles */
 
-#recent-articles {
+#recent-articles, #future-events {
     padding: 0 0.8rem;
+    
+    &-title {
+       margin-top: 1.6rem;
+       margin-bottom: 0.2rem;
+    }
 }
 
 .article-w-thumbnail {
     box-shadow: $box-shadow;
+    box-shadow: #ffffff;
 
     font: {
         family: $font-noto;
@@ -79,6 +85,9 @@ $featured-story-height: 90vh;
 
     &-container {
         padding: 0.8rem 0.8rem;
+        a {
+            text-decoration: none;
+        }
     }
 
     /* -- */
@@ -89,11 +98,13 @@ $featured-story-height: 90vh;
     }
 
     &-title {
-        margin-top: -0.5rem;
         padding: 1rem;
         font-size: 1.2rem;
         z-index: 99;
+        box-shadow: none;
+        color: $tas-almost-black;
         /* -- */
+
     }
 
 }
