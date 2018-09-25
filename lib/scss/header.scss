@@ -1,1 +1,123 @@
 @import "master";
+@import "mixins";
+
+/* NAVIGATION BAR */
+#navigation-bar {
+    background-color: $tas-super-black;
+    //box-shadow: $box-shadow;
+    height: 3.2rem;
+    font-family: $font-noto;
+    //overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+
+    /* -- */
+    &-logo {
+        background: {
+            color: $tas-blue;
+            image: url('../../assets/img/tas-logo-200.png');
+            position: center center;
+            repeat: no-repeat;
+            size: 2.4rem;
+        }
+
+        //box-shadow: $box-shadow;
+        width: 4rem;
+        height: 4rem;
+        position: absolute;
+        z-index: 999;
+    }
+
+    /* -- */
+    &-links {
+        display: none;
+        margin-top: 3.2rem;
+
+        /* -- */
+        ul {
+            font: {
+                size: 1.2rem;
+                weight: $font-semi-bold;
+            }
+
+            margin: 0;
+            padding: 0;
+
+            li {
+                background-color: $tas-blue;
+
+                // border: solid 1px $tas-bright-blue;
+                a {
+                    display: block;
+                    // padding: 4% 2.4rem;
+                    padding: 0.8rem 2.4rem;
+                    color: $tas-white;
+                    text-decoration: none;
+                }
+
+                a:hover {
+                    background: {
+                        color: $tas-red;
+                    }
+
+                    color: $tas-white;
+                }
+            }
+
+            .active {
+                background: {
+                    color: $tas-blue;
+                    color: $tas-white;
+                }
+            }
+        }
+    }
+
+    //&-button-wrapper {
+    /*display: flex;
+        align-items: center;
+        justify-content: baseline;*/
+    &-button {
+        // background-color: $tas-red;
+        background-color: $tas-blue;
+        color: $tas-white;
+        font: {
+            size: 1.2rem;
+            weight: $font-semi-bold;
+        }
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 3.2rem;
+        padding: 0 1.6rem 0.2rem 1.6rem;
+        position: fixed;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+    }
+
+    //}
+    /* -- */
+    
+    @include md {
+        &-logo {
+            left: 14rem;
+        }
+    }
+
+
+    /* -- */
+    &-doner {
+        margin-top: 3.2rem;
+
+        /* -- */
+        &-admin {
+            margin-top: 1em;
+        }
+    }
+}
+
+/* END of NAVIGATION BAR */

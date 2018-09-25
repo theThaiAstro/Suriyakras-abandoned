@@ -20,6 +20,7 @@
         <link rel="stylesheet" href="../lib/css/typefaces.css" />
         
         <!-- CSS/INTERNAL -->
+        <link rel="stylesheet" href="../lib/css/header.css" />
         <link rel="stylesheet" href="../lib/css/app.css" />
         
         <!-- CSS/EXTERNAL -->
@@ -29,7 +30,22 @@
 
     <body>
 
-        
+        <nav id="navigation-bar">
+            <a href="https://tas.tmr.in.th" title="สมาคมดาราศาสตร์ไทย">
+                <div id="navigation-bar-logo"></div>
+            </a>
+            <div id="navigation-bar-links">
+                <ul id="menu-main-navigation">
+                    <li><a href="#">ข่าว</a></li>
+                    <li><a href="#">ปรากฏการณ์ท้องฟ้า</a></li>
+                    <li><a href="#">กิจกรรม</a></li>
+                    <li><a href="#">ห้องภาพท้องฟ้า</a></li>
+                    <li><a href="#">เกี่ยวกับ</a></li>
+                    <li><a href="#">ติดต่อ</a></li>
+                </ul>
+            </div>
+            <span href="#" id="navigation-bar-button" class="icon" onclick="expandNavBar()">เมนู</span>
+        </nav>
 
         <!-- SCRIPTS/FOUNDATION -->
         <script src="../lib/js/vendor/jquery.js"></script>
