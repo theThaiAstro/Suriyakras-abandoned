@@ -49,21 +49,62 @@
     </div>
     <!-- /Featured -->
 
-    <!-- Recent -->
-    <h1 id="recent-articles-title" class="mainpage-title">บทความล่าสุด</h1>
-    <div id="recent-articles" class="grid-x">
-
-        <div class="col small-12 medium-4 large-3 article-w-thumbnail-container">
-            <a href="#" title="Link title">
-                <div class="article-w-thumbnail">
-                    <img src="http://placekitten.com/600/700" class="article-w-thumbnail-image" alt="" />
-                    <div class="article-w-thumbnail-title">Titile of the article</div>
+    
+    <div id="body-container" class="grid-x align-center">
+        <div id="body-container-box" class="col small-12 medium-10">
+        <!-- Body Container -->
+            
+            <!-- Recent -->
+            <h1 id="recent-articles-title" class="frontpage-title">บทความล่าสุด</h1>
+            <div id="recent-articles" class="grid-x">
+                
+                <div class="col small-12 medium-4 large-3 article-w-thumbnail-container">
+                    <a href="#" title="Link title">
+                        <div class="article-w-thumbnail">
+                            <img src="http://placekitten.com/600/700" class="article-w-thumbnail-image" alt="" />
+                            <div class="article-w-thumbnail-title">{{{article.title}}}</div>
+                        </div>
+                    </a>
                 </div>
-            </a>
-        </div>
+                
+            </div>
+            <!-- /Recent -->
+
+            <!-- Events -->
+            <h1 id="future-events-title" class="frontpage-title">กิจกรรมที่จะถึง</h1>
+            <div id="future-events" class="grid-x">
+                
+                <div class="col small-12 medium-4 large-3 article-w-thumbnail-container">
+                    <a href="#" title="Link title">
+                        <div class="article-w-thumbnail">
+                            <img src="http://placekitten.com/600/700" class="article-w-thumbnail-image" alt="" />
+                            <div class="article-w-thumbnail-title">{{{article.title}}}</div>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+            <!-- /Events -->
+
+            <!-- Sky highlights -->
+            <h1 id="sky-highlights-title" class="frontpage-title">ปรากฏการณ์ท้องฟ้า</h1>
+            <div id="sky-highlights" class="grid-x">
+                
+                <div class="col small-12 medium-4 large-3 article-w-thumbnail-container">
+                    <a href="#" title="Link title">
+                        <div class="article-w-thumbnail">
+                            <img src="http://placekitten.com/600/700" class="article-w-thumbnail-image" alt="" />
+                            <div class="article-w-thumbnail-title">{{{article.title}}}</div>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+            <!-- /Sky highlights -->
         
+        <!-- /Body Container -->
+        </div>
     </div>
-    <!-- /Recent -->
 
     <!-- SCRIPTS/FOUNDATION -->
     <script src="../lib/js/vendor/jquery.js"></script>
