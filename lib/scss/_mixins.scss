@@ -1,39 +1,44 @@
 /* BREAKPOINTS definition */
 
-$screen-sm-min: 576px; // Small tablets and large smartphones (landscape view)
-$screen-md-min: 768px; // Small tablets (portrait view)
-$screen-lg-min: 992px; // Tablets and small desktops
-$screen-xl-min: 1200px; // Large tablets and desktops
+$screen-sm: 39.9375em; // Small tablets and large smartphones (landscape view)
+$screen-md: 40em; // Small tablets (portrait view)
+$screen-lg: 64em; // Tablets and small desktops
+$screen-xl: 74.9375em; // Tablets and small desktops
+// $screen-xl: 1200px; // Large tablets and desktops
 /* MIXINS */
 
 /* Small devices */
 
-@mixin sm {
-    @media (min-width: #{$screen-sm-min}) {
+@mixin small-only {
+    @media (max-width: #{$screen-sm}) {
         @content;
     }
 }
 
 /* Medium devices */
 
-@mixin md {
-    @media (min-width: #{$screen-md-min}) {
+@mixin medium-and-up {
+    @media (min-width: #{$screen-md}) {
+        @content;
+    }
+}
+
+@mixin medium-only {
+    @media (min-width: #{$screen-md}) and (max-width: #{$screen-lg}) {
         @content;
     }
 }
 
 /* Large devices */
 
-@mixin lg {
-    @media (min-width: #{$screen-lg-min}) {
+@mixin large-and-up {
+    @media (min-width: #{$screen-lg}) {
         @content;
     }
 }
 
-/* Extra large devices */
-
-@mixin xl {
-    @media (min-width: #{$screen-xl-min}) {
+@mixin large-only {
+    @media (min-width: #{$screen-lg}) and (max-width: #{$screen-xl})  {
         @content;
     }
 }

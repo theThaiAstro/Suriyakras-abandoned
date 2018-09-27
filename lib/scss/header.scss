@@ -102,7 +102,7 @@
     //}
     /* -- */
     
-    @include md {
+    @include medium-and-up {
         &-logo {
             left: 14rem;
         }
