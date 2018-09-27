@@ -34,18 +34,36 @@
             
             <!-- Article -->
             <article id="article" class="cell small-12 large-6">
+
+
+                <!-- I need to configure the gird blocks again -->
+
                 
                 <header id="article-header">
                     <img src="https://tas.tmr.in.th/wp-content/uploads/2018/08/media-3293-5b71315f0cc58.jpg" id="article-header-image" alt="" />
                     <h1 id="article-header-title">Title of the article และหัวข้อของบทความ</h1>
                     <!-- TODO: THIS SHOULD BE [col.1] [col.2] with share on the right -->
                     <div id="article-header-metadata">
-                        เขียนเมื่อ 
-                        <!-- TODO: Localise time to Thai (Maybe Wordpress does that automatically!) -->
-                        <time datetime="">TIME</time>
-                        <address id="author">โดย
-                            <a rel="author" href="">THIS IS THE AUTHOR</a>
+                        <address id="author">
+                            <div id="author-avatar" style="background-image: url('https://ichef.bbci.co.uk/news/660/cpsprodpb/8460/production/_103588833_mediaitem103588832.jpg');"></div>
+                            <div id="author-info-wrapper">
+                                <a rel="author" href="" id="author-info-name">Jezza Corbyn</a>
+                                <br />
+                                sdjfsjdflkk
+                            </div>
                         </address>
+                        <div class="grid-x" style="margin-top: 1rem;">
+                            <div class="cell small-12 medium-auto">
+                                <time datetime="">TIME</time>
+                            </div>
+                            <div id="share" class="cell small-12 medium-auto">
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-facebook-messenger"></i>
+                                <i class="fab fa-twitter"></i>
+
+                            </div>
+                        </div>
+                        <!-- TODO: Localise time to Thai (Maybe Wordpress does that automatically!) -->
                         (<a href="#">Permalink</a>)
                     </div>
                 </header>
