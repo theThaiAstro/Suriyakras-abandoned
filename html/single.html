@@ -24,6 +24,7 @@
         <link rel="stylesheet" href="../lib/css/single.css" />
         
         <!-- CSS/EXTERNAL -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
         <link rel="stylesheet" href="" />
 
     </head>
@@ -50,19 +51,26 @@
                                 <div>
                                     <a rel="author" href="" id="author-info-name">Jezza Corbyn</a>
                                     <br />
-                                    1123657
+                                    <div id="author-info-bio">1123657</div>
                                 </div>
                             </div>
                         </address>
                         <div class="grid-x" style="margin-top: 1rem;">
-                            <div class="cell small-12 medium-auto">
+                            <div id="time-wrapper" class="cell small-12 medium-shrink">
                                 <time datetime="">TIME</time>
                             </div>
                             <div id="share" class="cell small-12 medium-auto">
-                                <i class="fab fa-facebook-f"></i>
-                                <i class="fab fa-facebook-messenger"></i>
-                                <i class="fab fa-twitter"></i>
-
+                                <!-- we can use inline svg like bbc -->
+                                <!-- we can also use svg sprite -->
+                                <svg id="share-facebook" class="icon">
+                                    <use xlink:href="../assets/icons/svg-sprites.svg#facebook" />
+                                </svg>
+                                <svg id="share-twitter" class="icon">
+                                    <use xlink:href="../assets/icons/svg-sprites.svg#twitter" />
+                                </svg>
+                                <svg id="share-line" class="icon">
+                                    <use xlink:href="../assets/icons/svg-sprites.svg#line" />
+                                </svg>
                             </div>
                         </div>
                         <!-- TODO: Localise time to Thai (Maybe Wordpress does that automatically!) -->

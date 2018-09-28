@@ -45,7 +45,12 @@
             // Add left, right paddings for small devices.
             @extend .padding-on-small-only;
             /* -- */
-            opacity: 0.8;
+            #time-wrapper {
+                // Centring the time vertically
+                display: flex;
+                //justify-content: center;
+                align-items: center;
+            }
             // time {}
             /* -- */
             #author {
@@ -76,6 +81,9 @@
                         color: $tas-blue;
                         text-decoration: none;
                     }
+                    &-bio {
+                        opacity: 0.64;
+                    }
                 }
             }
         }
@@ -83,6 +91,35 @@
             text-align: right;
             @include small-only {
                 text-align: left;
+            }
+            .icon {
+                height: 1.2rem;
+                width:  1.2rem;
+                box-sizing: content-box;
+            }
+            & > * {
+                padding: 0.8rem;
+            }
+            &-facebook {
+                fill: $brand-facebook-color;
+                &:hover {
+                    fill: $tas-white;
+                    background: $brand-facebook-color;
+                }
+            }
+            &-twitter {
+                fill: $brand-twitter-color;
+                &:hover {
+                    fill: $tas-white;
+                    background: $brand-twitter-color;
+                }
+            }
+            &-line {
+                fill: $brand-line-color;
+                &:hover {
+                    fill: $tas-white;
+                    background: $brand-line-color;
+                }
             }
         }
     }
@@ -101,6 +138,7 @@
             opacity: 0.2;
         }
     }
+    
     &-content {
         // Add left, right paddings for small devices.
         @extend .padding-on-small-only;
