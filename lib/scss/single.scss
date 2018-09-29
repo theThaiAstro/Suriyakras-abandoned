@@ -49,7 +49,7 @@
             #datetime-share {
                 &-wrapper {
                     display: flex;
-                    margin-top: 1rem;
+                    margin-top: 1.2rem;
                 }
             }
             #time-wrapper {
@@ -95,17 +95,17 @@
             }
         }
         #share {
+            flex-grow: 1;
             text-align: right;
-            @include small-only {
-                text-align: left;
-            }
             .icon {
                 height: 1.2rem;
                 width:  1.2rem;
                 box-sizing: content-box;
             }
-            & > * {
-                padding: 0.8rem;
+            & > svg {
+                // This removes the extra whitespce below an SVG.
+                vertical-align: top;
+                padding: 0.8rem; 
             }
             &-facebook {
                 fill: $brand-facebook-color;
@@ -200,12 +200,17 @@
             family: $font-noto;
         }
         & > li {
-            background: red;
-            padding: 0.4rem 1rem;
+            background: $tas-blue;
+            color: $tas-white;
             display: inline-block;
+            padding: 0.4rem 1rem;
             font: {
                 size: 1rem;
                 weight: $font-semi-bold;
+            }
+            &:hover {
+                background: $tas-white;
+                color: $tas-blue;
             }
         }      
     }
